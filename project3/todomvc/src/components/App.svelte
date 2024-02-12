@@ -9,6 +9,18 @@
 	import * as topojson from 'topojson-client';
 	import { geoPath, geoAlbersUsa } from 'd3-geo';
 	import { draw } from 'svelte/transition';
+	import * as d3 from 'd3';
+
+	//load data
+	onMount(async () => {
+    try {
+      const data = await d3.csv("output.csv");
+      const csvData = data;
+      console.log(csvData);
+    } catch (error) {
+      console.error("Error loading the CSV file:", error);
+    }
+  });
 	
 	// https://github.com/topojson/us-atlas#us-atlas-topojson
 	const projection = geoAlbersUsa().scale(1300).translate([487.5, 305])
@@ -16,8 +28,6 @@
 	const path = geoPath().projection(null);
 	
 	let states = [];
-	let counties = []
-	let mesh;
 	let selected;
 	
 	onMount(async () => {
@@ -26,7 +36,6 @@
 		console.log({ us })
 		
 		states = topojson.feature(us, us.objects.states).features;
-		
 	})
 </script>
 
