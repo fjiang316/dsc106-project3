@@ -14,9 +14,8 @@
 	//load data
 	onMount(async () => {
     try {
-      const data = await d3.csv("output.csv");
-      const csvData = data;
-      console.log(csvData);
+      const cities = await d3.csv("cities.csv");
+      console.log(cities);
     } catch (error) {
       console.error("Error loading the CSV file:", error);
     }
