@@ -91,23 +91,33 @@
 		}
 	// function for checkbox dot color
 	function getDotColor(city) {
-		if (city.English === 'True') {
-			return showEnglish ? 'red' : 'lightgrey';
-		} else if (city.Spanish === 'True' && showSpanish) {
-			return 'red';
-		} else if (city.French === 'True' && showFrench) {
-			return 'red';
-		} else if (city.Arabic === 'True' && showArabic) {
-			return 'red';
-		} else if (city.German === 'True' && showGerman) {
-			return 'red';
-		} else if (city.Italian === 'True' && showItalian) {
-			return 'red';
-		} else if (city.Dutch === 'True' && showDutch) {
-			return 'red';
-		} else if (city.Portuguese === 'True' && showPortuguese) {
-			return 'red';
+		// Check if any language checkbox is checked
+		const isAnyLanguageChecked = showEnglish || showSpanish || showFrench || showArabic || showGerman || showItalian || showPortuguese || showDutch;
+
+		if (isAnyLanguageChecked) {
+			// Only show cities that satisfy the checked condition
+			if (city.English === 'True' && showEnglish) {
+				return 'red';
+			} else if (city.Spanish === 'True' && showSpanish) {
+				return 'red';
+			} else if (city.French === 'True' && showFrench) {
+				return 'red';
+			} else if (city.Arabic === 'True' && showArabic) {
+				return 'red';
+			} else if (city.German === 'True' && showGerman) {
+				return 'red';
+			} else if (city.Italian === 'True' && showItalian) {
+				return 'red';
+			} else if (city.Dutch === 'True' && showDutch) {
+				return 'red';
+			} else if (city.Portuguese === 'True' && showPortuguese) {
+				return 'red';
+			} else {
+				// Hide cities that do not satisfy any checked condition
+				return null;
+			}
 		} else {
+			// When no checkboxes are checked, show all cities in grey
 			return 'lightgrey';
 		}
 	}
@@ -120,10 +130,12 @@
 		{/each}
 	</g>
 
-	<g class="cities" fill={'black'} stroke="black">
+	<g class="cities" stroke="black">
 		{#each cities as city}
+			{#if (city.color !== null)}
 			<circle cx={projection([city.lng_us, city.lat_us])[0]} cy={projection([city.lng_us, city.lat_us])[1]}
 			on:mouseover={showTP(city)} on:mouseout={hideTP} r="3.7" fill = {city.color}/>
+			{/if}
 		{/each}
 		<rect 
 		x={tooltip.x +9} 
