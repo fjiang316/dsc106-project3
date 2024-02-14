@@ -1,0 +1,488 @@
+city_ascii,lat_us,lng_us,language,country_foreign,English,Spanish,French,Arabic,German,Italian,Portuguese,Dutch
+Aberdeen,35.1351,-79.4319,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Aberdeen,39.5146,-76.173,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Aberdeen,40.4165,-74.2249,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Aberdeen,45.4646,-98.468,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Aberdeen,46.9757,-123.8095,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Ada,34.7686,-96.6689,['Serbian'],['Serbia'],False,False,False,False,False,False,False,False
+Ada,40.768,-83.8252,['Serbian'],['Serbia'],False,False,False,False,False,False,False,False
+Albany,31.5776,-84.1762,['English'],['Australia'],True,False,False,False,False,False,False,False
+Albany,37.8898,-122.3018,['English'],['Australia'],True,False,False,False,False,False,False,False
+Albany,42.6664,-73.7987,['English'],['Australia'],True,False,False,False,False,False,False,False
+Albany,44.6275,-123.0966,['English'],['Australia'],True,False,False,False,False,False,False,False
+Alexandria,31.2923,-92.4702,['Arabic' 'Romanian'],"['Egypt', 'Romania']",False,False,False,True,False,False,False,False
+Alexandria,38.8185,-77.0861,['Arabic' 'Romanian'],"['Egypt', 'Romania']",False,False,False,True,False,False,False,False
+Alexandria,38.9622,-84.386,['Arabic' 'Romanian'],"['Egypt', 'Romania']",False,False,False,True,False,False,False,False
+Alexandria,40.2583,-85.676,['Arabic' 'Romanian'],"['Egypt', 'Romania']",False,False,False,True,False,False,False,False
+Alexandria,45.8777,-95.3766,['Arabic' 'Romanian'],"['Egypt', 'Romania']",False,False,False,True,False,False,False,False
+Amherst,41.4022,-82.2303,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Amherst,42.3645,-72.5069,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Amherst,42.8705,-71.6068,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Amherst,43.0117,-78.7569,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Amsterdam,42.942,-74.1907,['Dutch'],['Netherlands'],False,False,False,False,False,False,False,True
+Athens,32.2041,-95.8321,['Greek'],['Greece'],False,False,False,False,False,False,False,False
+Athens,33.9508,-83.3689,['Greek'],['Greece'],False,False,False,False,False,False,False,False
+Athens,34.7847,-86.951,['Greek'],['Greece'],False,False,False,False,False,False,False,False
+Athens,35.4573,-84.6045,['Greek'],['Greece'],False,False,False,False,False,False,False,False
+Athens,39.3269,-82.0987,['Greek'],['Greece'],False,False,False,False,False,False,False,False
+Atherton,37.4539,-122.2032,['English'],['Australia'],True,False,False,False,False,False,False,False
+Bangor,40.8678,-75.2085,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bangor,44.8322,-68.7906,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bath,42.3363,-77.318,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bath,43.9346,-69.8346,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bedford,32.8464,-97.135,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bedford,37.336,-79.5179,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bedford,38.8602,-86.4895,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bedford,41.225,-73.6678,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bedford,41.3919,-81.5359,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bedford,42.497,-71.2783,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bedford,42.9407,-71.5302,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Belen,34.6803,-106.7875,['Guarani' 'Spanish'],"['Paraguay', 'Argentina']",False,True,False,False,False,False,False,False
+Belgrade,45.7796,-111.1751,['Serbian'],['Serbia'],False,False,False,False,False,False,False,False
+Bella Vista,36.4667,-94.2707,['Guarani' 'Spanish'],['Paraguay'],False,True,False,False,False,False,False,False
+Belleville,38.5165,-89.99,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Belleville,40.795,-74.1616,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Berlin,39.7915,-74.9375,['German'],['Germany'],False,False,False,False,True,False,False,False
+Berlin,41.6114,-72.7758,['German'],['Germany'],False,False,False,False,True,False,False,False
+Berlin,44.4869,-71.2599,['German'],['Germany'],False,False,False,False,True,False,False,False
+Bethlehem,40.6266,-75.3679,"['Afrikaans' 'English' 'Sepedi' 'Sesotho' 'Setswana' 'Tshivenda'
+ 'Xitsonga' 'isiNdebele' 'isiXhosa' 'isiZulu' 'siSwati']",['South Africa'],True,False,False,False,False,False,False,False
+Bethlehem,42.5856,-73.8219,"['Afrikaans' 'English' 'Sepedi' 'Sesotho' 'Setswana' 'Tshivenda'
+ 'Xitsonga' 'isiNdebele' 'isiXhosa' 'isiZulu' 'siSwati']",['South Africa'],True,False,False,False,False,False,False,False
+Birmingham,33.5277,-86.7987,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Birmingham,42.5447,-83.2166,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bogota,40.8751,-74.0293,['Spanish'],['Colombia'],False,True,False,False,False,False,False,False
+Bolton,42.4362,-71.6073,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bradford,41.9604,-78.6413,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Brandon,27.9367,-82.3,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Brandon,32.2778,-89.9896,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Brandon,43.5928,-96.5799,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Bremen,33.7086,-85.1498,['German'],['Germany'],False,False,False,False,True,False,False,False
+Bridgetown,39.1551,-84.6359,['English'],['Barbados'],True,False,False,False,False,False,False,False
+Brighton,39.9716,-104.7964,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Brighton,42.5298,-83.7847,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Brighton,43.1175,-77.5835,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bristol,36.5572,-82.2154,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bristol,36.6179,-82.1607,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bristol,40.1028,-74.853,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bristol,41.6812,-72.9407,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bristol,41.6827,-71.2694,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Bristol,42.5378,-88.0149,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Cairo,30.879,-84.205,['Arabic'],['Egypt'],False,False,False,True,False,False,False,False
+Cairo,42.2965,-74.0205,['Arabic'],['Egypt'],False,False,False,True,False,False,False,False
+Cambridge,38.5515,-76.0787,['English' 'Maori'],"['United Kingdom', 'New Zealand']",True,False,False,False,False,False,False,False
+Cambridge,40.0221,-81.5868,['English' 'Maori'],"['United Kingdom', 'New Zealand']",True,False,False,False,False,False,False,False
+Cambridge,42.3759,-71.1185,['English' 'Maori'],"['United Kingdom', 'New Zealand']",True,False,False,False,False,False,False,False
+Cambridge,45.5612,-93.2283,['English' 'Maori'],"['United Kingdom', 'New Zealand']",True,False,False,False,False,False,False,False
+Carlisle,39.5807,-84.3201,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Carlisle,40.1999,-77.2043,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Carlisle,42.53,-71.3513,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Ceres,37.5953,-120.9625,['Portuguese'],['Brazil'],False,False,False,False,False,False,True,False
+Chelmsford,42.6,-71.3631,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Chester,34.705,-81.2132,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Chester,37.3531,-77.4342,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Chester,37.92,-89.826,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Chester,39.8456,-75.3719,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Chester,41.357,-74.2769,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Clare,43.8259,-84.763,['English'],['Australia'],True,False,False,False,False,False,False,False
+Colonia,40.5929,-74.3151,['English'],"['Micronesia, Federated States Of']",True,False,False,False,False,False,False,False
+Concordia,39.5669,-97.6466,['Portuguese' 'Spanish'],"['Argentina', 'Brazil']",False,True,False,False,False,False,True,False
+Cornwall,41.4195,-74.054,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Coventry,41.6933,-71.6611,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Coventry,41.7828,-72.3394,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Creston,41.0597,-94.365,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Croydon,40.0911,-74.8975,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Damascus,39.2737,-77.2006,['Arabic'],['Syria'],False,False,False,True,False,False,False,False
+Damascus,45.4239,-122.447,['Arabic'],['Syria'],False,False,False,True,False,False,False,False
+Darlington,34.3015,-79.8672,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Delhi,37.4306,-120.7759,['English' 'Hindi'],['India'],True,False,False,False,False,False,False,False
+Derby,37.5571,-97.2552,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Derby,39.8401,-104.9171,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Derby,41.3265,-73.0833,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Derry,42.8888,-71.2804,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Douglas,31.3602,-109.5394,['English' 'Manx Gaelic'],['Isle Of Man'],True,False,False,False,False,False,False,False
+Douglas,31.5065,-82.8543,['English' 'Manx Gaelic'],['Isle Of Man'],True,False,False,False,False,False,False,False
+Douglas,42.0525,-71.7516,['English' 'Manx Gaelic'],['Isle Of Man'],True,False,False,False,False,False,False,False
+Douglas,42.7541,-105.3968,['English' 'Manx Gaelic'],['Isle Of Man'],True,False,False,False,False,False,False,False
+Dover,39.161,-75.5203,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Dover,40.0033,-76.8484,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Dover,40.5302,-81.4805,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Dover,40.8859,-74.5597,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Dover,41.6839,-73.5739,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Dover,42.2366,-71.2842,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Dover,43.1887,-70.8845,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Dublin,32.5359,-82.9279,['English' 'Irish'],['Ireland'],True,False,False,False,False,False,False,False
+Dublin,37.7161,-121.8964,['English' 'Irish'],['Ireland'],True,False,False,False,False,False,False,False
+Dublin,40.1112,-83.1453,['English' 'Irish'],['Ireland'],True,False,False,False,False,False,False,False
+Dudley,42.055,-71.9352,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Dumbarton,37.613,-77.5065,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Dumfries,38.567,-77.3233,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Dunedin,28.0329,-82.7863,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Durango,37.2744,-107.8703,['Spanish'],['Mexico'],False,True,False,False,False,False,False,False
+Durham,35.9795,-78.9032,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Durham,39.6232,-121.7875,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Durham,41.4622,-72.6829,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Durham,43.1174,-70.9195,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+El Dorado,33.2184,-92.664,['Spanish'],"['Mexico', 'Venezuela']",False,True,False,False,False,False,False,False
+El Dorado,37.8209,-96.8614,['Spanish'],"['Mexico', 'Venezuela']",False,True,False,False,False,False,False,False
+Elgin,30.3512,-97.3876,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Elgin,42.0385,-88.3229,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Enfield,41.9839,-72.5548,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Ennis,32.3239,-96.6377,['English' 'Irish'],['Ireland'],True,False,False,False,False,False,False,False
+Exeter,36.294,-119.1459,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Exeter,41.3338,-75.8214,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Exeter,41.5658,-71.6307,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Exeter,42.9901,-70.9646,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Falmouth,41.5915,-70.5914,['English'],['Jamaica'],True,False,False,False,False,False,False,False
+Falmouth,43.7476,-70.2827,['English'],['Jamaica'],True,False,False,False,False,False,False,False
+Florence,33.059,-111.4209,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Florence,34.1782,-79.7872,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Florence,34.8303,-87.6654,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Florence,38.3835,-105.1114,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Florence,38.99,-84.6471,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Florence,40.0978,-74.7886,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Florence,43.9913,-124.1062,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Fontana,34.0968,-117.4599,['English' 'Maltese'],['Malta'],True,False,False,False,False,False,False,False
+Fort Smith,35.3493,-94.3695,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Freetown,41.7714,-71.0157,['English'],['Sierra Leone'],True,False,False,False,False,False,False,False
+Geneva,41.8006,-80.9462,['French' 'German' 'Italian' 'Romansh'],['Switzerland'],False,False,True,False,True,True,False,False
+Geneva,41.8833,-88.3242,['French' 'German' 'Italian' 'Romansh'],['Switzerland'],False,False,True,False,True,True,False,False
+Geneva,42.8644,-76.9827,['French' 'German' 'Italian' 'Romansh'],['Switzerland'],False,False,True,False,True,True,False,False
+Genoa,42.0929,-88.6966,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Georgetown,30.6668,-97.6953,['English'],"['Guyana', 'Saint Helena, Ascension, And Tristan Da Cunha', 'Australia']",True,False,False,False,False,False,False,False
+Georgetown,31.9849,-81.226,['English'],"['Guyana', 'Saint Helena, Ascension, And Tristan Da Cunha', 'Australia']",True,False,False,False,False,False,False,False
+Georgetown,33.3595,-79.2958,['English'],"['Guyana', 'Saint Helena, Ascension, And Tristan Da Cunha', 'Australia']",True,False,False,False,False,False,False,False
+Georgetown,38.2251,-84.5481,['English'],"['Guyana', 'Saint Helena, Ascension, And Tristan Da Cunha', 'Australia']",True,False,False,False,False,False,False,False
+Georgetown,38.6899,-75.3872,['English'],"['Guyana', 'Saint Helena, Ascension, And Tristan Da Cunha', 'Australia']",True,False,False,False,False,False,False,False
+Georgetown,42.724,-70.9821,['English'],"['Guyana', 'Saint Helena, Ascension, And Tristan Da Cunha', 'Australia']",True,False,False,False,False,False,False,False
+Gladstone,39.2133,-94.5592,['English'],['Australia'],True,False,False,False,False,False,False,False
+Gladstone,45.3864,-122.5933,['English'],['Australia'],True,False,False,False,False,False,False,False
+Glasgow,37.0047,-85.9263,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Glasgow,39.6015,-75.7474,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Glencoe,33.9446,-85.9319,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Glencoe,42.1347,-87.7641,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Glencoe,44.7699,-94.1513,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Gloucester,39.7924,-75.0363,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Gloucester,42.626,-70.6897,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Grafton,39.341,-80.0161,['English'],['Australia'],True,False,False,False,False,False,False,False
+Grafton,41.2808,-82.0368,['English'],['Australia'],True,False,False,False,False,False,False,False
+Grafton,42.2085,-71.6838,['English'],['Australia'],True,False,False,False,False,False,False,False
+Grafton,43.3204,-87.9481,['English'],['Australia'],True,False,False,False,False,False,False,False
+Greenville,31.8437,-86.6379,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Greenville,33.1116,-96.1099,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Greenville,33.385,-91.0514,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Greenville,34.8362,-82.3649,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Greenville,35.5956,-77.3768,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Greenville,38.8866,-89.3893,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Greenville,40.1043,-84.6209,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Greenville,40.9982,-73.8194,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Greenville,41.4052,-80.3837,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Greenville,41.88,-71.5549,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Greenville,43.1797,-85.2533,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Griffith,41.5279,-87.424,['English'],['Australia'],True,False,False,False,False,False,False,False
+Guadalupe,33.3664,-111.9633,['Portuguese'],['Sao Tome And Principe'],False,False,False,False,False,False,True,False
+Guadalupe,34.9608,-120.5735,['Portuguese'],['Sao Tome And Principe'],False,False,False,False,False,False,True,False
+Halifax,41.9914,-70.8633,['English' 'French'],"['Canada', 'United Kingdom']",True,False,True,False,False,False,False,False
+Hamburg,42.7233,-78.8348,['German'],['Germany'],False,False,False,False,True,False,False,False
+Hamilton,34.1346,-87.9755,['English' 'French' 'Maori'],"['Canada', 'New Zealand', 'United Kingdom', 'Bermuda', 'Australia']",True,False,True,False,False,False,False,False
+Hamilton,39.3938,-84.5652,['English' 'French' 'Maori'],"['Canada', 'New Zealand', 'United Kingdom', 'Bermuda', 'Australia']",True,False,True,False,False,False,False,False
+Hamilton,40.2046,-74.6765,['English' 'French' 'Maori'],"['Canada', 'New Zealand', 'United Kingdom', 'Bermuda', 'Australia']",True,False,True,False,False,False,False,False
+Hamilton,42.6267,-70.858,['English' 'French' 'Maori'],"['Canada', 'New Zealand', 'United Kingdom', 'Bermuda', 'Australia']",True,False,True,False,False,False,False,False
+Hamilton,46.2527,-114.1598,['English' 'French' 'Maori'],"['Canada', 'New Zealand', 'United Kingdom', 'Bermuda', 'Australia']",True,False,True,False,False,False,False,False
+Hanover,45.1558,-93.66635,['German'],['Germany'],False,False,False,False,True,False,False,False
+Happy Valley,45.4382,-122.5143,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Havana,40.307,-90.0602,['Spanish'],['Cuba'],False,True,False,False,False,False,False,False
+Hereford,34.8232,-102.4001,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Hobart,41.5139,-87.2729,['English'],['Australia'],True,False,False,False,False,False,False,False
+Hobart,44.4966,-88.1602,['English'],['Australia'],True,False,False,False,False,False,False,False
+Hobart,47.412,-121.996,['English'],['Australia'],True,False,False,False,False,False,False,False
+Hopedale,42.1248,-71.535,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Horsham,40.1825,-75.1387,['English'],['Australia'],True,False,False,False,False,False,False,False
+Inverness,28.8397,-82.3437,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Inverness,42.1152,-88.1019,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Ipswich,42.6857,-70.8399,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Irvine,33.6772,-117.7738,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Island Lake,42.2784,-88.1999,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Jasper,30.9221,-93.9947,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Jasper,33.8514,-87.2719,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Jasper,34.4709,-84.4496,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Jasper,38.3934,-86.9404,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Jordan,44.6652,-93.6351,['English' 'Filipino'],['Philippines'],True,False,False,False,False,False,False,False
+Kensington,37.9084,-122.2805,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Kensington,41.6298,-72.7714,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Kerman,36.7249,-120.0625,['Persian'],['Iran'],False,False,False,False,False,False,False,False
+Kiel,43.9167,-88.0266,['German'],['Germany'],False,False,False,False,True,False,False,False
+Kingston,35.8713,-84.4959,['English' 'French'],"['Jamaica', 'Canada', 'Australia']",True,False,True,False,False,False,False,False
+Kingston,41.2652,-75.8875,['English' 'French'],"['Jamaica', 'Canada', 'Australia']",True,False,True,False,False,False,False,False
+Kingston,41.4738,-71.5236,['English' 'French'],"['Jamaica', 'Canada', 'Australia']",True,False,True,False,False,False,False,False
+Kingston,41.9295,-73.9968,['English' 'French'],"['Jamaica', 'Canada', 'Australia']",True,False,True,False,False,False,False,False
+Kingston,41.9862,-70.7482,['English' 'French'],"['Jamaica', 'Canada', 'Australia']",True,False,True,False,False,False,False,False
+Kingston,42.9156,-71.0665,['English' 'French'],"['Jamaica', 'Canada', 'Australia']",True,False,True,False,False,False,False,False
+Kula,20.7706,-156.3284,['Serbian'],['Serbia'],False,False,False,False,False,False,False,False
+La Palma,33.8504,-118.0406,['Spanish'],['Panama'],False,True,False,False,False,False,False,False
+La Plata,38.5352,-76.9701,['Spanish'],['Argentina'],False,True,False,False,False,False,False,False
+Leeds,33.5429,-86.5636,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Leicester,42.24,-71.912,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Levittown,40.1537,-74.853,['English' 'Spanish'],['Puerto Rico'],True,True,False,False,False,False,False,False
+Levittown,40.7241,-73.5125,['English' 'Spanish'],['Puerto Rico'],True,True,False,False,False,False,False,False
+Lewes,38.7781,-75.1454,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Lima,40.741,-84.1121,['Spanish'],['Peru'],False,True,False,False,False,False,False,False
+Lincoln,33.5935,-86.1372,['English' 'Spanish'],"['United Kingdom', 'Argentina']",True,True,False,False,False,False,False,False
+Lincoln,38.8759,-121.2916,['English' 'Spanish'],"['United Kingdom', 'Argentina']",True,True,False,False,False,False,False,False
+Lincoln,40.1509,-89.3721,['English' 'Spanish'],"['United Kingdom', 'Argentina']",True,True,False,False,False,False,False,False
+Lincoln,40.8088,-96.6796,['English' 'Spanish'],"['United Kingdom', 'Argentina']",True,True,False,False,False,False,False,False
+Lincoln,41.9171,-71.4505,['English' 'Spanish'],"['United Kingdom', 'Argentina']",True,True,False,False,False,False,False,False
+Lincoln,42.4266,-71.3086,['English' 'Spanish'],"['United Kingdom', 'Argentina']",True,True,False,False,False,False,False,False
+Linden,40.6251,-74.2381,['English'],['Guyana'],True,False,False,False,False,False,False,False
+Lisbon,40.7752,-80.7628,['Portuguese'],['Portugal'],False,False,False,False,False,False,True,False
+Lisbon,44.0265,-70.09,['Portuguese'],['Portugal'],False,False,False,False,False,False,True,False
+Livingston,37.3875,-120.7248,['English' 'Spanish'],"['United Kingdom', 'Guatemala']",True,True,False,False,False,False,False,False
+Livingston,40.7855,-74.3291,['English' 'Spanish'],"['United Kingdom', 'Guatemala']",True,True,False,False,False,False,False,False
+Livingston,45.6665,-110.5538,['English' 'Spanish'],"['United Kingdom', 'Guatemala']",True,True,False,False,False,False,False,False
+London,37.1209,-84.0804,['English' 'French'],"['United Kingdom', 'Canada']",True,False,True,False,False,False,False,False
+London,39.8936,-83.4375,['English' 'French'],"['United Kingdom', 'Canada']",True,False,True,False,False,False,False,False
+Los Angeles,34.1139,-118.4068,['Spanish'],['Chile'],False,True,False,False,False,False,False,False
+Maitland,28.6295,-81.3718,['English'],['Australia'],True,False,False,False,False,False,False,False
+Manchester,35.463,-86.0774,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Manchester,37.1464,-83.7635,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Manchester,37.4902,-77.5396,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Manchester,38.583,-90.5065,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Manchester,39.6584,-76.8881,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Manchester,39.9651,-74.3738,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Manchester,41.7753,-72.5242,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Manchester,42.9848,-71.4447,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Manchester,47.5519,-122.5517,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Mandeville,30.375,-90.0906,['English'],['Jamaica'],True,False,False,False,False,False,False,False
+Marathon,24.7262,-81.0376,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Mecca,33.5767,-116.0645,['Arabic'],['Saudi Arabia'],False,False,False,True,False,False,False,False
+Medina,41.1358,-81.8694,['Arabic'],['Saudi Arabia'],False,False,False,True,False,False,False,False
+Medina,43.2197,-78.3888,['Arabic'],['Saudi Arabia'],False,False,False,True,False,False,False,False
+Medina,45.0326,-93.5834,['Arabic'],['Saudi Arabia'],False,False,False,True,False,False,False,False
+Melbourne,28.1085,-80.6627,['English'],['Australia'],True,False,False,False,False,False,False,False
+Melville,40.7823,-73.4088,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Mercedes,26.1533,-97.9129,['Spanish'],"['Uruguay', 'Argentina', 'Argentina']",False,True,False,False,False,False,False,False
+Milan,35.9126,-88.7554,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Milan,41.4416,-90.5595,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Milan,42.0815,-83.6854,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Monrovia,34.165,-117.9921,['English'],['Liberia'],True,False,False,False,False,False,False,False
+Montevideo,44.9505,-95.7154,['Spanish'],['Uruguay'],False,True,False,False,False,False,False,False
+Moscow,46.7307,-116.9986,['Russian'],['Russia'],False,False,False,False,False,False,False,False
+Munster,41.5469,-87.504,['German'],['Germany'],False,False,False,False,True,False,False,False
+Naples,26.1505,-81.7936,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Nazareth,40.74,-75.3132,['Hebrew'],['Israel'],False,False,False,False,False,False,False,False
+Newbury,42.7706,-70.8747,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Newcastle,35.2404,-97.5998,['English'],['Australia'],True,False,False,False,False,False,False,False
+Newcastle,47.5303,-122.1633,['English'],['Australia'],True,False,False,False,False,False,False,False
+Newman,37.3157,-121.0211,['English'],['Australia'],True,False,False,False,False,False,False,False
+Newport,35.6234,-91.2322,['English'],"['United Kingdom', 'United Kingdom']",True,False,False,False,False,False,False,False
+Newport,35.9617,-83.1977,['English'],"['United Kingdom', 'United Kingdom']",True,False,False,False,False,False,False,False
+Newport,39.0855,-84.4868,['English'],"['United Kingdom', 'United Kingdom']",True,False,False,False,False,False,False,False
+Newport,41.4803,-71.3205,['English'],"['United Kingdom', 'United Kingdom']",True,False,False,False,False,False,False,False
+Newport,43.3649,-72.2001,['English'],"['United Kingdom', 'United Kingdom']",True,False,False,False,False,False,False,False
+Newport,44.6231,-124.0524,['English'],"['United Kingdom', 'United Kingdom']",True,False,False,False,False,False,False,False
+Northampton,40.6866,-75.4904,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Northampton,42.3266,-72.6745,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Norwich,41.5495,-72.0882,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Norwich,42.5333,-75.5227,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Orange,30.121,-93.7616,['English'],['Australia'],True,False,False,False,False,False,False,False
+Orange,33.8038,-117.8218,['English'],['Australia'],True,False,False,False,False,False,False,False
+Orange,38.2486,-78.1127,['English'],['Australia'],True,False,False,False,False,False,False,False
+Orange,41.2827,-73.0272,['English'],['Australia'],True,False,False,False,False,False,False,False
+Orange,42.6066,-72.2931,['English'],['Australia'],True,False,False,False,False,False,False,False
+Orleans,41.7665,-69.9675,['French'],['France'],False,False,True,False,False,False,False,False
+Ottawa,38.6,-95.2642,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Ottawa,41.0203,-84.0354,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Ottawa,41.3532,-88.8307,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Oviedo,28.658,-81.1872,['Spanish'],['Spain'],False,True,False,False,False,False,False,False
+Oxford,33.5966,-85.869,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Oxford,34.3609,-89.5286,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Oxford,36.3156,-78.5848,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Oxford,39.5061,-84.7434,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Oxford,39.7859,-75.9801,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Oxford,41.4313,-73.135,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Oxford,42.1286,-71.8665,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Palatka,29.6493,-81.6704,['Russian'],['Russia'],False,False,False,False,False,False,False,False
+Palermo,39.4313,-121.5226,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Panama City,30.1995,-85.6003,['Spanish'],['Panama'],False,True,False,False,False,False,False,False
+Paola,38.5784,-94.8619,['English' 'Maltese'],['Malta'],True,False,False,False,False,False,False,False
+Paris,33.6689,-95.5462,['French'],['France'],False,False,True,False,False,False,False,False
+Paris,36.2933,-88.3065,['French'],['France'],False,False,True,False,False,False,False,False
+Paris,38.2016,-84.2719,['French'],['France'],False,False,True,False,False,False,False,False
+Paris,39.6148,-87.6905,['French'],['France'],False,False,True,False,False,False,False,False
+Paris,44.2445,-70.4883,['French'],['France'],False,False,True,False,False,False,False,False
+Parma,41.3843,-81.7286,['Italian' 'Russian'],"['Italy', 'Russia']",False,False,False,False,False,True,False,False
+Parma,43.2651,-77.7968,['Italian' 'Russian'],"['Italy', 'Russia']",False,False,False,False,False,True,False,False
+Pembroke,34.6766,-79.1934,['English' 'French' 'Maltese'],"['Malta', 'Canada']",True,False,True,False,False,False,False,False
+Pembroke,42.0655,-70.8014,['English' 'French' 'Maltese'],"['Malta', 'Canada']",True,False,True,False,False,False,False,False
+Pembroke,43.1803,-71.45,['English' 'French' 'Maltese'],"['Malta', 'Canada']",True,False,True,False,False,False,False,False
+Peterborough,42.8905,-71.9394,['English' 'French'],"['United Kingdom', 'Canada', 'Australia']",True,False,True,False,False,False,False,False
+Philipsburg,40.8952,-78.2147,['Dutch' 'English'],['Sint Maarten'],True,False,False,False,False,False,False,True
+Plymouth,41.2404,-75.9505,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Plymouth,41.3482,-86.3187,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Plymouth,41.6642,-73.0263,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Plymouth,41.8783,-70.6309,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Plymouth,42.3719,-83.468,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Plymouth,43.7437,-71.7224,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Plymouth,43.7451,-87.9656,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Plymouth,45.0224,-93.4615,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Portland,27.8913,-97.328,['English'],['Australia'],True,False,False,False,False,False,False,False
+Portland,36.5883,-86.5194,['English'],['Australia'],True,False,False,False,False,False,False,False
+Portland,40.4377,-84.9835,['English'],['Australia'],True,False,False,False,False,False,False,False
+Portland,41.5988,-72.589,['English'],['Australia'],True,False,False,False,False,False,False,False
+Portland,42.8696,-84.899,['English'],['Australia'],True,False,False,False,False,False,False,False
+Portland,43.6773,-70.2715,['English'],['Australia'],True,False,False,False,False,False,False,False
+Portland,45.5371,-122.65,['English'],['Australia'],True,False,False,False,False,False,False,False
+Portsmouth,36.8468,-76.354,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Portsmouth,38.7539,-82.9446,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Portsmouth,41.5922,-71.2744,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Portsmouth,43.058,-70.7826,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Potsdam,44.6699,-74.9831,['German'],['Germany'],False,False,False,False,True,False,False,False
+Progreso,26.0962,-97.9566,['Spanish'],['Mexico'],False,True,False,False,False,False,False,False
+Progress,40.2905,-76.8382,['Russian'],['Russia'],False,False,False,False,False,False,False,False
+Punta Gorda,26.8934,-82.0516,['English'],['Belize'],True,False,False,False,False,False,False,False
+Ravenna,41.1613,-81.2421,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Reading,39.2241,-84.4332,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Reading,40.34,-75.9267,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Reading,42.5351,-71.1056,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Rehoboth,41.8439,-71.2456,['English'],['Namibia'],True,False,False,False,False,False,False,False
+Richmond,29.5824,-95.7602,['English' 'Maori'],"['New Zealand', 'Australia', 'Australia']",True,False,False,False,False,False,False,False
+Richmond,37.5295,-77.4756,['English' 'Maori'],"['New Zealand', 'Australia', 'Australia']",True,False,False,False,False,False,False,False
+Richmond,37.7306,-84.2926,['English' 'Maori'],"['New Zealand', 'Australia', 'Australia']",True,False,False,False,False,False,False,False
+Richmond,37.9477,-122.339,['English' 'Maori'],"['New Zealand', 'Australia', 'Australia']",True,False,False,False,False,False,False,False
+Richmond,39.2755,-93.9731,['English' 'Maori'],"['New Zealand', 'Australia', 'Australia']",True,False,False,False,False,False,False,False
+Richmond,39.8318,-84.8904,['English' 'Maori'],"['New Zealand', 'Australia', 'Australia']",True,False,False,False,False,False,False,False
+Richmond,41.4983,-71.6608,['English' 'Maori'],"['New Zealand', 'Australia', 'Australia']",True,False,False,False,False,False,False,False
+Richmond,42.8094,-82.7517,['English' 'Maori'],"['New Zealand', 'Australia', 'Australia']",True,False,False,False,False,False,False,False
+Riga,43.0802,-77.8753,['Latvian'],['Latvia'],False,False,False,False,False,False,False,False
+Rochester,41.059,-86.196,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Rochester,41.76,-70.8385,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Rochester,42.6866,-83.1197,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Rochester,43.168,-77.6162,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Rochester,43.299,-70.9787,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Rochester,44.0151,-92.4778,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Rodeo,38.0368,-122.2526,['Spanish'],['Argentina'],False,True,False,False,False,False,False,False
+Roma,26.4166,-99.0061,['English'],['Australia'],True,False,False,False,False,False,False,False
+Rome,34.2662,-85.1862,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Rome,43.226,-75.491,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Rotterdam,42.8133,-74.0129,['Dutch'],['Netherlands'],False,False,False,False,False,False,False,True
+Salamanca,42.1631,-78.7233,['Spanish'],"['Mexico', 'Spain', 'Chile']",False,True,False,False,False,False,False,False
+Salem,37.2864,-80.0555,['English' 'Hindi'],['India'],True,False,False,False,False,False,False,False
+Salem,38.6048,-86.0977,['English' 'Hindi'],['India'],True,False,False,False,False,False,False,False
+Salem,38.6278,-88.9579,['English' 'Hindi'],['India'],True,False,False,False,False,False,False,False
+Salem,39.5681,-75.4724,['English' 'Hindi'],['India'],True,False,False,False,False,False,False,False
+Salem,40.054,-111.6721,['English' 'Hindi'],['India'],True,False,False,False,False,False,False,False
+Salem,40.9049,-80.8491,['English' 'Hindi'],['India'],True,False,False,False,False,False,False,False
+Salem,42.5129,-70.902,['English' 'Hindi'],['India'],True,False,False,False,False,False,False,False
+Salem,42.7902,-71.2203,['English' 'Hindi'],['India'],True,False,False,False,False,False,False,False
+Salem,44.9232,-123.0245,['English' 'Hindi'],['India'],True,False,False,False,False,False,False,False
+Salinas,36.6884,-121.6317,['English' 'Spanish'],"['Puerto Rico', 'Ecuador']",True,True,False,False,False,False,False,False
+San Antonio,29.4658,-98.5254,['English' 'Spanish'],"['Chile', 'Puerto Rico']",True,True,False,False,False,False,False,False
+San Carlos,37.4982,-122.268,['Aymara' 'English' 'Filipino' 'Quechua' 'Spanish'],"['Venezuela', 'Nicaragua', 'Philippines', 'Bolivia']",True,True,False,False,False,False,False,False
+San Fernando,34.2886,-118.4363,['English' 'Filipino' 'Spanish'],"['Trinidad And Tobago', 'Venezuela', 'Mexico', 'Philippines', 'Philippines', 'Chile']",True,True,False,False,False,False,False,False
+San Francisco,37.7562,-122.443,['Spanish'],"['El Salvador', 'Argentina']",False,True,False,False,False,False,False,False
+San Gabriel,34.0948,-118.099,['Spanish'],['Ecuador'],False,True,False,False,False,False,False,False
+San Jose,37.3021,-121.8489,['English' 'Filipino' 'Spanish'],"['Costa Rica', 'Uruguay', 'Philippines', 'Philippines']",True,True,False,False,False,False,False,False
+San Juan,26.1903,-98.152,['English' 'Filipino' 'Spanish'],"['Argentina', 'Puerto Rico', 'Dominican Republic', 'Philippines']",True,True,False,False,False,False,False,False
+San Lorenzo,37.6737,-122.1349,['Aymara' 'English' 'Guarani' 'Quechua' 'Spanish'],"['Paraguay', 'Puerto Rico', 'Argentina', 'Bolivia']",True,True,False,False,False,False,False,False
+San Luis,32.4911,-114.7089,['Spanish'],"['Argentina', 'Guatemala']",False,True,False,False,False,False,False,False
+San Marcos,29.8736,-97.938,['Spanish'],['Guatemala'],False,True,False,False,False,False,False,False
+San Marcos,33.135,-117.1743,['Spanish'],['Guatemala'],False,True,False,False,False,False,False,False
+San Marino,34.1224,-118.1132,['Italian'],['San Marino'],False,False,False,False,False,True,False,False
+San Martin,37.0829,-121.5963,['Spanish'],"['Argentina', 'Colombia']",False,True,False,False,False,False,False,False
+San Pablo,37.9628,-122.3425,['English' 'Filipino'],['Philippines'],True,False,False,False,False,False,False,False
+San Rafael,37.9904,-122.5222,['Aymara' 'Quechua' 'Spanish'],"['Argentina', 'Bolivia']",False,True,False,False,False,False,False,False
+San Ramon,37.7625,-121.9365,['Aymara' 'Quechua' 'Spanish'],"['Peru', 'Bolivia']",False,True,False,False,False,False,False,False
+Santa Ana,33.7366,-117.8819,['Spanish'],['El Salvador'],False,True,False,False,False,False,False,False
+Santa Barbara,34.4285,-119.7202,['English' 'Spanish'],"['Honduras', 'Mexico', 'Puerto Rico', 'Chile']",True,True,False,False,False,False,False,False
+Santa Clara,37.1311,-113.656,['Spanish'],['Cuba'],False,True,False,False,False,False,False,False
+Santa Clara,37.3646,-121.968,['Spanish'],['Cuba'],False,True,False,False,False,False,False,False
+Santa Cruz,36.9789,-122.0346,['Aymara' 'English' 'Filipino' 'Portuguese' 'Quechua' 'Spanish'],"['Bolivia', 'Brazil', 'Philippines', 'Ecuador']",True,True,False,False,False,False,True,False
+Santa Fe,29.3891,-95.1005,['Spanish'],['Argentina'],False,True,False,False,False,False,False,False
+Santa Fe,35.6619,-105.9819,['Spanish'],['Argentina'],False,True,False,False,False,False,False,False
+Santa Maria,34.9333,-120.4432,['Portuguese'],['Brazil'],False,False,False,False,False,False,True,False
+Santa Rosa,38.4458,-122.7067,['Portuguese' 'Spanish'],"['Argentina', 'Brazil']",False,True,False,False,False,False,True,False
+Scarborough,43.5911,-70.3682,['English'],"['United Kingdom', 'Trinidad And Tobago']",True,False,False,False,False,False,False,False
+Scottsdale,33.6872,-111.8651,['English'],['Australia'],True,False,False,False,False,False,False,False
+Seymour,35.8761,-83.7742,['English'],['Australia'],True,False,False,False,False,False,False,False
+Seymour,38.9477,-85.8912,['English'],['Australia'],True,False,False,False,False,False,False,False
+Seymour,41.381,-73.0873,['English'],['Australia'],True,False,False,False,False,False,False,False
+Sheffield,34.7559,-87.7007,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Shelburne,44.3905,-73.2413,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Shrewsbury,38.5866,-90.3282,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Shrewsbury,42.2842,-71.7154,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Socorro,31.6384,-106.2601,['Spanish'],['Colombia'],False,True,False,False,False,False,False,False
+Socorro,34.0543,-106.9066,['Spanish'],['Colombia'],False,True,False,False,False,False,False,False
+Soledad,36.4434,-121.3431,['Spanish'],['Colombia'],False,True,False,False,False,False,False,False
+Southampton,39.9137,-74.7171,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Southampton,42.2308,-72.7386,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Southport,42.04,-76.8774,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Springs,41.0212,-72.1584,"['Afrikaans' 'English' 'Sepedi' 'Sesotho' 'Setswana' 'Tshivenda'
+ 'Xitsonga' 'isiNdebele' 'isiXhosa' 'isiZulu' 'siSwati']",['South Africa'],True,False,False,False,False,False,False,False
+Stafford,29.6271,-95.5653,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Stafford,39.7049,-74.2643,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Stafford,41.9876,-72.3122,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Stephenville,32.2148,-98.2205,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Stratford,39.829,-75.0156,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Stratford,41.207,-73.1305,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Stuttgart,34.4963,-91.5486,['German'],['Germany'],False,False,False,False,True,False,False,False
+Sudbury,42.3847,-71.4234,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Sunbury,40.2485,-82.8803,['English'],['Australia'],True,False,False,False,False,False,False,False
+Sunbury,40.8617,-76.7874,['English'],['Australia'],True,False,False,False,False,False,False,False
+Sutton,42.1337,-71.7503,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Syracuse,43.0469,-76.1444,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Taunton,41.9036,-71.0943,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Theodore,30.5408,-88.1884,['English'],['Australia'],True,False,False,False,False,False,False,False
+Thompson,41.6474,-74.6745,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Thompson,41.9798,-71.8735,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Toledo,41.6639,-83.5822,['Spanish'],['Spain'],False,True,False,False,False,False,False,False
+Trinidad,37.175,-104.4908,['Aymara' 'Quechua' 'Spanish'],"['Bolivia', 'Uruguay', 'Uruguay']",False,True,False,False,False,False,False,False
+Uxbridge,42.0593,-71.638,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Valparaiso,41.4782,-87.0507,['Spanish'],"['Chile', 'Mexico']",False,True,False,False,False,False,False,False
+Vancouver,45.6367,-122.597,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Venice,27.1164,-82.4135,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Verona,40.8323,-74.243,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Verona,42.9884,-89.5381,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Verona,43.1592,-75.6189,['Italian'],['Italy'],False,False,False,False,False,True,False,False
+Versailles,38.0488,-84.726,['French'],['France'],False,False,True,False,False,False,False,False
+Victoria,28.8285,-96.985,['English' 'French' 'Maltese' 'Seychellois Creole' 'Spanish'],"['Seychelles', 'Canada', 'Malta', 'Argentina', 'Chile']",True,True,True,False,False,False,False,False
+Victoria,44.8634,-93.6586,['English' 'French' 'Maltese' 'Seychellois Creole' 'Spanish'],"['Seychelles', 'Canada', 'Malta', 'Argentina', 'Chile']",True,True,True,False,False,False,False,False
+Vienna,38.8996,-77.2597,['German'],['Austria'],False,False,False,False,True,False,False,False
+Vienna,39.3238,-81.5383,['German'],['Austria'],False,False,False,False,True,False,False,False
+Vienna,43.2344,-75.7777,['German'],['Austria'],False,False,False,False,True,False,False,False
+Wakefield,42.5035,-71.0656,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Wakefield,43.5916,-71.0098,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Warrington,30.3821,-87.2944,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Warsaw,41.2443,-85.8478,['Polish'],['Poland'],False,False,False,False,False,False,False,False
+Warwick,41.2551,-74.355,['English'],"['United Kingdom', 'Australia']",True,False,False,False,False,False,False,False
+Warwick,41.7062,-71.4334,['English'],"['United Kingdom', 'Australia']",True,False,False,False,False,False,False,False
+Waterford,37.6429,-120.7553,['English' 'Irish'],['Ireland'],True,False,False,False,False,False,False,False
+Waterford,39.7415,-74.8207,['English' 'Irish'],['Ireland'],True,False,False,False,False,False,False,False
+Waterford,41.3692,-72.1483,['English' 'Irish'],['Ireland'],True,False,False,False,False,False,False,False
+Waterford,42.7646,-88.2158,['English' 'Irish'],['Ireland'],True,False,False,False,False,False,False,False
+Wellington,26.6464,-80.2706,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Wellington,37.2622,-97.4281,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Wellington,40.7007,-105.0057,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Westport,41.1428,-73.3475,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Westport,41.5886,-71.0837,['English' 'Maori'],['New Zealand'],True,False,False,False,False,False,False,False
+Winchester,35.1898,-86.1075,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Winchester,36.1368,-115.1299,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Winchester,38.0017,-84.1908,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Winchester,39.1735,-78.1746,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Winchester,41.9219,-73.1028,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Winchester,42.4518,-71.1463,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Windsor,38.5418,-122.8086,['English' 'French'],"['Canada', 'Canada']",True,False,True,False,False,False,False,False
+Windsor,40.4679,-104.9211,['English' 'French'],"['Canada', 'Canada']",True,False,True,False,False,False,False,False
+Windsor,41.871,-72.6736,['English' 'French'],"['Canada', 'Canada']",True,False,True,False,False,False,False,False
+Windsor,43.2406,-89.2952,['English' 'French'],"['Canada', 'Canada']",True,False,True,False,False,False,False,False
+Winton,37.3854,-120.6173,['English'],['Australia'],True,False,False,False,False,False,False,False
+Woolwich,39.7401,-75.317,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Worcester,42.2705,-71.8079,"['Afrikaans' 'English' 'Sepedi' 'Sesotho' 'Setswana' 'Tshivenda'
+ 'Xitsonga' 'isiNdebele' 'isiXhosa' 'isiZulu' 'siSwati']","['South Africa', 'United Kingdom']",True,False,False,False,False,False,False,False
+Wyndham,37.6924,-77.6123,['English'],['Australia'],True,False,False,False,False,False,False,False
+Yarmouth,41.6768,-70.2248,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+Yarmouth,43.7978,-70.1719,['English' 'French'],['Canada'],True,False,True,False,False,False,False,False
+York,34.9967,-81.234,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+York,39.9651,-76.7315,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+York,40.8698,-97.5943,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+York,43.186,-70.6661,['English'],['United Kingdom'],True,False,False,False,False,False,False,False
+Zurich,39.23222,-99.43472,['French' 'German' 'Italian' 'Romansh'],['Switzerland'],False,False,True,False,True,True,False,False
