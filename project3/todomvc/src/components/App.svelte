@@ -13,6 +13,7 @@
 	let states = [];
 	let cities = [];
 	let selected;
+	let description = '';
 	
 	let showEnglish = false; // checkbox for yes
 	let showSpanish = false; 
@@ -27,6 +28,10 @@
 	onMount(async () => {
     try {
       cities = await d3.csv("output.csv");
+	  cities.forEach(city => {
+			city.highlighted = false;
+			city.hoverColor = 'green';
+		});
 	  console.log(cities);
     } catch (error) {
       console.error("Error loading the CSV file:", error);
@@ -46,7 +51,11 @@
 	function showTP(city) {
         tooltip.city_name = city.city_ascii;
 		tooltip.foreign = city.country_foreign;
-        tooltip.x = projection([city.lng_us, city.lat_us])[0]; 
+		const xCoordinate = projection([city.lng_us, city.lat_us])[0];
+    	const tooltipWidth = (tooltip.foreign.length + 20) * 8.5;
+    	tooltip.x = xCoordinate + tooltipWidth > 975 ? xCoordinate - tooltipWidth : xCoordinate;
+
+        //tooltip.x = projection([city.lng_us, city.lat_us])[0]; 
         tooltip.y = projection([city.lng_us, city.lat_us])[1]; 
         tooltip.visibility = 'visible';
     }
@@ -55,11 +64,29 @@
     }
 
 	$: {
+		let selectedLanguages = [];
+
+		if (showEnglish) selectedLanguages.push('English');
+		if (showSpanish) selectedLanguages.push('Spanish');
+		if (showArabic) selectedLanguages.push('Arabic');
+		if (showDutch) selectedLanguages.push('');
+		if (showFrench) selectedLanguages.push('');
+		if (showGerman) selectedLanguages.push('');
+		if (showItalian) selectedLanguages.push('');
+		if (showPortuguese) selectedLanguages.push('');
+
+		if (selectedLanguages.length > 0) {
+		// If at least one checkbox is checked, update the description
+		description = `${selectedLanguages.join('\n ')}`;
+		} else {
+		// If no checkbox is checked, provide another default message
+		description = 'Please select the checkbox to the right';
+		}
+
     	// Reactive statement to re-run the logic when checkbox states change
     	for (const city of cities) {
       		city.color = getDotColor(city);
     	}
-		//console.log({showArabic, showDutch, showEnglish, showFrench, showGerman, showPortuguese, showItalian, showSpanish})
   	}
 	// checkbox change handle
 	function handleCheckboxChange(e, language) {
@@ -87,9 +114,8 @@
 			color: getDotColor(city)
 		}));
 		cities = updatedCities;
-			console.log('Checkbox changed');
 		}
-	// function for checkbox dot color
+	
 	function getDotColor(city) {
 		// Check if any language checkbox is checked
 		const isAnyLanguageChecked = showEnglish || showSpanish || showFrench || showArabic || showGerman || showItalian || showPortuguese || showDutch;
@@ -123,6 +149,8 @@
 	}
 </script>
 
+<h1>Pattern of US City Names: Does it show pattern of culture immegration in US history?</h1>
+
 <svg width="900" height="570" viewBox="0 0 975 610">
 	<g class = "map" fill="#F2F2F2" stroke="grey">
 		{#each states as feature, i}
@@ -134,26 +162,30 @@
 		{#each cities as city}
 			{#if (city.color !== null)}
 			<circle cx={projection([city.lng_us, city.lat_us])[0]} cy={projection([city.lng_us, city.lat_us])[1]}
-			on:mouseover={showTP(city)} on:mouseout={hideTP} r="3.7" fill = {city.color}/>
+			on:mouseover={() => { showTP(city); city.highlighted = true; }} 
+            on:mouseout={() => { hideTP(); city.highlighted = false; }} 
+            r="3.7" 
+            fill={city.highlighted ? 'green' : city.color}/>
 			{/if}
 		{/each}
 		<rect 
 		x={tooltip.x +9} 
 		y={tooltip.y - 38} 
-		width = {(tooltip.foreign.length +8)* 8.5}
+		width = {(tooltip.foreign.length +12)* 8.5}
 		height={55} 
 		fill="#B8DCA8" 
 		stroke="grey" 
 		visibility={tooltip.visibility} />
 		<text class="tooltip" y={tooltip.y - 30} visibility={tooltip.visibility}  stroke= None>
-			<tspan x={tooltip.x + 15} dy="1.1em"> {"Name: " + tooltip.city_name} </tspan>
-			<tspan x={tooltip.x + 15} dy="1.1em"> {"Foreign: " + tooltip.foreign} </tspan>
+			<tspan x={tooltip.x + 15} dy="1.1em"> {"City Name: " + tooltip.city_name} </tspan>
+			<tspan x={tooltip.x + 15} dy="1.1em"> {"Foreign Origins: " + tooltip.foreign} </tspan>
 		</text>
 	</g>
 	
 </svg>
 
-<div>
+<div class='checkbox-container'>
+	<b>Frequently Seen Immegrating Culture Languages</b>
 	<label>
 		<input type="checkbox" bind:checked={showEnglish} on:change={(e) => handleCheckboxChange(e, 'English')}/>
 		Show English
@@ -186,6 +218,10 @@
 		<input type="checkbox" bind:checked={showPortuguese} on:change={(e) => handleCheckboxChange(e, 'Portuguese')}/>
 		Show Portuguese
 	</label>
+
+	<div class="description-box">
+    	{description}
+  	</div>
 </div>
 
 
@@ -206,10 +242,14 @@
 		fill: rgb(2, 100, 12);
 		font-weight: bold;
     }
+	.checkbox-container {
+    position: absolute;
+    top: 80px; /* Adjust as needed */
+    right: 200px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    }
   </style>
   
-  <div class="selectedName">
-    {selected?.properties.name ?? 'Hover to see the state'}
-  </div>
   
 	
