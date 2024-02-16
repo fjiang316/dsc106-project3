@@ -14,6 +14,7 @@
 	let cities = [];
 	let selected;
 	let description = '';
+	let zoomLevel = 1;
 	
 	let showEnglish = false; // checkbox for yes
 	let showSpanish = false; 
@@ -24,6 +25,8 @@
 	let showPortuguese = false;
 	let showDutch = false;
 	
+	
+
 	//Load data
 	onMount(async () => {
     try {
@@ -66,8 +69,8 @@
 	$: {
 		let selectedLanguages = [];
 
-		if (showEnglish) selectedLanguages.push('English');
-		if (showSpanish) selectedLanguages.push('Spanish');
+		if (showEnglish) selectedLanguages.push('');
+		if (showSpanish) selectedLanguages.push('');
 		if (showArabic) selectedLanguages.push('Arabic');
 		if (showDutch) selectedLanguages.push('');
 		if (showFrench) selectedLanguages.push('');
@@ -80,7 +83,7 @@
 		description = `${selectedLanguages.join('\n ')}`;
 		} else {
 		// If no checkbox is checked, provide another default message
-		description = 'Please select the checkbox to the right';
+		description = 'Please select the checkbox on the right side to see cities in the US that have their name from a specific foreign language origin. For ease of pattern recognization, please select the box one at a time first.';
 		}
 
     	// Reactive statement to re-run the logic when checkbox states change
@@ -151,24 +154,28 @@
 
 <h1>Pattern of US City Names: Does it show pattern of culture immegration in US history?</h1>
 
-<svg width="900" height="570" viewBox="0 0 975 610">
-	<g class = "map" fill="#F2F2F2" stroke="grey">
+<svg width="900" height="570" viewBox="0 0 975 610" style ={{ maxWidth: '100%', height: 'auto' }}>
+	<g class="map-container" fill="#F2F2F2" stroke="grey">
 		{#each states as feature, i}
-			<path d={path(feature)} on:mouseover={() => selected = feature} class="state" in:draw={{ delay: i * 50, duration: 1000 }} />
+		<path d={path(feature)} on:mouseover={() => selected = feature} class="state" in:draw={{ delay: i * 50, duration: 1000 }} />
 		{/each}
 	</g>
 
-	<g class="cities" stroke="black">
+	<g class="cities-container" stroke="black">
 		{#each cities as city}
-			{#if (city.color !== null)}
-			<circle cx={projection([city.lng_us, city.lat_us])[0]} cy={projection([city.lng_us, city.lat_us])[1]}
-			on:mouseover={() => { showTP(city); city.highlighted = true; }} 
-            on:mouseout={() => { hideTP(); city.highlighted = false; }} 
-            r="3.7" 
-            fill={city.highlighted ? 'green' : city.color}/>
-			{/if}
+		{#if (city.color !== null)}
+			<circle
+			cx={projection([city.lng_us, city.lat_us])[0]}
+			cy={projection([city.lng_us, city.lat_us])[1]}
+			on:mouseover={() => { showTP(city); city.highlighted = true; }}
+			on:mouseout={() => { hideTP(); city.highlighted = false; }}
+			r="3.7"
+			fill={city.highlighted ? 'green' : city.color}
+			/>
+		{/if}
 		{/each}
-		<rect 
+	</g>
+	<rect 
 		x={tooltip.x +9} 
 		y={tooltip.y - 38} 
 		width = {(tooltip.foreign.length +12)* 8.5}
@@ -180,12 +187,11 @@
 			<tspan x={tooltip.x + 15} dy="1.1em"> {"City Name: " + tooltip.city_name} </tspan>
 			<tspan x={tooltip.x + 15} dy="1.1em"> {"Foreign Origins: " + tooltip.foreign} </tspan>
 		</text>
-	</g>
-	
 </svg>
 
 <div class='checkbox-container'>
 	<b>Frequently Seen Immegrating Culture Languages</b>
+	<u> {description}</u>
 	<label>
 		<input type="checkbox" bind:checked={showEnglish} on:change={(e) => handleCheckboxChange(e, 'English')}/>
 		Show English
@@ -218,12 +224,7 @@
 		<input type="checkbox" bind:checked={showPortuguese} on:change={(e) => handleCheckboxChange(e, 'Portuguese')}/>
 		Show Portuguese
 	</label>
-
-	<div class="description-box">
-    	{description}
-  	</div>
 </div>
-
 
 
 <style>
@@ -243,12 +244,22 @@
 		font-weight: bold;
     }
 	.checkbox-container {
-    position: absolute;
-    top: 80px; /* Adjust as needed */
-    right: 200px; /* Adjust as needed */
-    display: flex;
-    flex-direction: column;
+		position: absolute;
+		left: 1000px;
+		top: 80px; /* Adjust as needed */
+		right: 200px; /* Adjust as needed */
+		display: flex;
+		flex-direction: column;
     }
+	.description-box {
+		position: absolute;
+		top: 200px;
+		right: 100px;
+		background-color: rgb(250, 250, 51);
+		padding: 15px;
+		border: 1px solid black;
+		font-size: 15px;
+	}
   </style>
   
   
