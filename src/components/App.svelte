@@ -176,6 +176,13 @@
         .on('zoom', (event) => {
             svg.select('.map-container').attr('transform', event.transform);
             svg.select('.cities-container').attr('transform', event.transform);
+			// Update zoom level
+			zoomLevel = event.transform.k;
+
+			// Update dot size based on the zoom level
+			svg.selectAll('circle')
+				.attr('r', d => 4 / zoomLevel)
+				.attr('stroke-width', d => 1 / zoomLevel);
         });
 
     // Apply the zoom behavior to the SVG
@@ -188,7 +195,16 @@
 });
 </script>
 
-<h1>Pattern of US City Names: Does it show pattern of culture migration and immigration in US history?</h1>
+<div style="text-align: left;">
+  <h1>
+    Pattern of US City Names: Does it show pattern of culture migration and immigration in US history?
+  </h1>
+  <h2 style="font-style: italic; font-size: 16px;">
+    Explore the spread pattern of those US cities with names identical to cities in other cultures of the world.<br>
+    Utilizing the checkbox and provided context to explore how the spread pattern of cities reflects the historical influence of different cultures.<br>
+    Hover and zoom in on cities for more details.
+  </h2>
+</div>
 <br>
 <svg  id="map" width="900" height="570" viewBox="0 0 975 610" style ={{ maxWidth: '100%', height: 'auto' }}>
 	<g class="map-container" fill="white" stroke="grey">
@@ -272,7 +288,7 @@
 </div>
 
 <div class = 'writeup'>
-	<a href="https://github.com/fjiang316/dsc106-project3/blob/main/writeup.md" target="_blank">View Project Writeup Here</a>
+	<a href="/src/components/writeup.md" target="_blank">View Project Writeup Here</a>
 </div>
 
 <style>
