@@ -288,7 +288,7 @@
 </div>
 
 <div class = 'writeup'>
-	<a href="/src/components/writeup.md" target="_blank">View Project Writeup Here</a>
+	<a href="src/components/writeup.md" target="_blank">View Project Writeup Here</a>
 </div>
 
 <style>
