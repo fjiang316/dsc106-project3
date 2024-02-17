@@ -271,6 +271,9 @@
 	{/each}
 </div>
 
+<div class = 'writeup'>
+	<a href="https://github.com/fjiang316/dsc106-project3/blob/main/writeup.md" target="_blank">View Project Writeup Here</a>
+</div>
 
 <style>
 	h1 {
@@ -308,6 +311,13 @@
 		display: flex;
 		flex-direction: column;
     }
+	.writeup {
+		position: absolute;
+		border: 1px solid black;
+		border-radius: 1px;
+		font-size: 18px;
+		background-color: rgb(250,250, 51);
+	}
 	.description-box {
 		position: absolute;
 		top: 200px;
