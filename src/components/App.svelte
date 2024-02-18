@@ -288,7 +288,7 @@
 </div>
 
 <div class = 'writeup'>
-	<a href="https://github.com/fjiang316/dsc106-project3/writeup.html" target="_blank">View Project Writeup Here</a>
+	<a href="https://raw.githubusercontent.com/fjiang316/dsc106-project3/main/writeup.md" target="_blank">View Project Writeup Here</a>
 </div>
 
 <style>
