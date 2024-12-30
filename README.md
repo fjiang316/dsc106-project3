@@ -1,6 +1,6 @@
 
 # An interactive graph that show pattern of US City Names that are identical to other countries in the world
-
+https://fjiang316.github.io/dsc106-project3/
 # Project Overview
 
 The United States was founded on a rich immigration culture, with the earliest settlers arriving on the East Coast in the 17th century. This diverse history is reflected in various aspects of American life, including the names of cities. The aim of this project is to uncover the hidden patterns behind city names in the US in terms of their language origins. By connecting these patterns with the history of immigrating cultures associated with those languages, we can explore how American history has influenced city names.
